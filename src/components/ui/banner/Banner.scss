@@ -1,0 +1,37 @@
+.layout__banner {
+  background-color: #E8E8E8;
+  font-family: Montserrat, sans-serif;
+
+  &-content {
+    width: 86%;
+    margin: auto;
+    display: flex;
+  }
+
+  &-text {
+    margin: auto 0;
+    flex-direction: column;
+    padding: 20px 0;
+
+    &-title {
+      font-size: 80px;
+      font-weight: 700;
+      line-height: 97.52px;
+      text-align: left;
+      text-transform: uppercase;
+
+    }
+
+    &-default {
+      font-size: 32px;
+      font-weight: 500;
+      line-height: 39.01px;
+      text-align: left;
+
+    }
+  }
+
+  &-image {
+    margin-left: auto;
+  }
+}
